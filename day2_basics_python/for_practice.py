@@ -21,3 +21,7 @@ for marca in marcas:
         print(f"{marca} es la mejor marca de teléfonos")
     else:
         print(f"{marca} es una buena marca, pero no como Apple")
+
+#alternativa para retroceder en el for
+for marca in reversed(marcas):
+    print(f"Marca desde el final: {marca}")
