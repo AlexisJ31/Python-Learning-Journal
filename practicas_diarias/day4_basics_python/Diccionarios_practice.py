@@ -7,3 +7,5 @@ mi_perro = {
 }
 #print para imprimnir el nombre por ejemplo
 print (mi_perro["nombre"])
+
+
