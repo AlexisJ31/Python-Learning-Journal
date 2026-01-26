@@ -21,5 +21,10 @@ Aquí guardo mis retos diarios, lógica de programación y experimentos con el l
 - Uso de `break` para detener procesos (Simulador de entrenamiento).
 - **Práctica Final:** Integración de listas, inputs, y validación de datos.
 
+### 📅 Día 4: Modularización y Estructuras de Datos
+- **Diccionarios:** Organización de datos complejos (fichas veterinarias).
+- **Funciones:** Creación de bloques de código reutilizables.
+- **Modularización:** Separación de lógica y datos en múltiples archivos (`import` y `from`).
+- Organización de archivos estilo POO (Programación Orientada a Objetos).
 ---
-*Próximo objetivo: Diccionarios y Funciones (Día 4) ⚡*
+*Próximo objetivo: Manejo de Archivos Reales y Excepciones. (Día 5) ⚡*
