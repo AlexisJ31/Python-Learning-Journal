@@ -8,7 +8,7 @@ Aquí guardo mis retos diarios, lógica de programación y experimentos con el l
 
 
 ## 📁 Contenido del Portafolio
-- [Día 1: Fundamentos](./day1_basics_python/README.md)
+- [Día 1: Fundamentos](practicas_diarias/day1_basics_python/README.md)
 - [Día 2: Ciclos For](./day2_basics_python/README.md)
 - [Día 3: Ciclos While](./day3_basics_python/README.md)
 - [Día 4: Diccionarios y Módulos](./day4_basics_python/README.md)
