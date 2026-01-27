@@ -16,5 +16,5 @@ jobs:
 
     - name: Revisar errores de sintaxis
       run: |
-        python -m py_compile *.py 
+        python -m py_compile **/*.py 
         echo "✅ ¡Todo el código de hoy está perfecto!"
