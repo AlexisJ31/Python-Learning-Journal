@@ -14,6 +14,9 @@ Aquí guardo mis retos diarios, lógica de programación y experimentos con el l
 - [Día 4: Diccionarios y Módulos](practicas_diarias/day4_basics_python/README.md)
 - [Día 5: Manejo de Archivos y Excepciones](practicas_diarias/day5_basics_python/README.md)
 ---
+proximo dia, bases de datos y Docker ⚡
+---
+
 🛠️ Infraestructura y DevOps
 Este proyecto no es solo código; incluye automatización profesional:
 
