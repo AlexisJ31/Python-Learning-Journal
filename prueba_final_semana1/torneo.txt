@@ -1,0 +1,2 @@
+[Registro]: Alexis, posicion: pivote, dorsal: 6
+[Registro]: Messi, posicion: delantero, dorsal: 10
