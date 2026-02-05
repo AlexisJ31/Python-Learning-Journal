@@ -31,7 +31,7 @@ El proyecto está organizado siguiendo estándares de la industria:
 ```
 🛠️ Tecnologías Utilizadas
 Backend & API
-[Python 3.10+ - Lenguaje principal.]
+Python 3.10+ - Lenguaje principal.
 
 FastAPI - Framework moderno para la creación de APIs.
 
