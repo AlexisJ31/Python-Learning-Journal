@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import requests # No olvides poner esto arriba del todo
+import requests 
 # Importamos la función que ya creaste en tu otro archivo
 from prueba_final_semana1.conexion_bd import crear_tabla 
 
