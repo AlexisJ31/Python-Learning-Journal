@@ -1,26 +1,53 @@
-# 🐍 Python Learning Journal - Alexis
+# 🐍 Python Learning Journal - Alexis Aimar
 
-¡Hola! Soy estudiante de **Desarrollo de Software en la UTP** y este es mi repositorio personal donde documento mi progreso aprendiendo Python desde cero. 
+## 📝 Descripción del Proyecto
+Este repositorio es mi bitácora personal de aprendizaje en el lenguaje Python, desarrollada durante mi cuarto año de la carrera de **Desarrollo de Software en la UTP**. El proyecto ha evolucionado desde scripts básicos de lógica hasta una arquitectura de API moderna y profesional.
 
-Aquí guardo mis retos diarios, lógica de programación y experimentos con el lenguaje.
+## 🚀 Funcionalidades Principales
+- **Lógica de Programación**: Estructuras de control, ciclos (For/While) y manejo de diccionarios.
+- **Persistencia de Datos**: Gestión de archivos `.txt` y bases de datos relacionales con **SQLite**.
+- **Arquitectura API REST**: Servidor web interactivo para exponer datos al exterior.
+- **Consumo de Servicios**: Integración con APIs externas para obtener información en tiempo real.
+- **Pruebas Automatizadas**: Validación de lógica mediante **Pytest**.
 
-## 🚀 Progreso Semanal
+## 🏗️ Arquitectura del Sistema
+El proyecto está organizado siguiendo estándares de la industria:
+1. **Core Logic**: Módulos diarios de práctica (Día 1 al Día 6).
+2. **Backend API**: Construido con **FastAPI** para la gestión de solicitudes.
+3. **Servidor Intermediario**: Implementación de **Uvicorn** para la ejecución del servicio.
+4. **Base de Datos**: Almacenamiento local mediante SQLite para la gestión de torneos de fútbol.
+5. **Contenedores**: Empaquetado de la aplicación mediante **Docker** para asegurar portabilidad.
 
-* **[Día 1: Fundamentos](practicas_diarias/day1_basics_python/README.md)** - Variables y tipos de datos.
-* **[Día 2: Ciclos For](practicas_diarias/day2_basics_python/README.md)** - Iteraciones y lógica repetitiva.
-* **[Día 3: Ciclos While](practicas_diarias/day3_basics_python/README.md)** - Bucles condicionales y control de flujo.
-* **[Día 4: Diccionarios y Módulos](practicas_diarias/day4_basics_python/README.md)** - Estructuras de datos complejas.
-* **[Día 5: Manejo de Archivos](practicas_diarias/day5_basics_python/README.md)** - Persistencia en `.txt` y limpieza con `.strip()`.
-* **[Día 6: Bases de Datos SQL](practicas_diarias/day6_basics_python/README.md)** - Manejo de **SQLite**, lenguaje SQL y flujo de trabajo con **Ramas (Git Flow)**.
+## 📁 Estructura del Repositorio
+```text
+/
+├── backend/          # API principal y lógica de servidor
+├── database/         # Archivos .db y scripts de conexión SQL
+├── day1_to_day6/     # Prácticas diarias de lógica y archivos
+├── tests/            # Pruebas unitarias automatizadas
+├── Dockerfile        # Configuración para despliegue en contenedores
+├── .gitignore        # Archivos excluidos del control de versiones
+└── requirements.txt  # Dependencias del proyecto
+```
+🛠️ Tecnologías Utilizadas
+Backend & API
+[Python 3.10+ - Lenguaje principal.]
 
----
+FastAPI - Framework moderno para la creación de APIs.
 
-## 🛠️ Infraestructura y DevOps
-Este proyecto no es solo código; incluye automatización profesional:
+Uvicorn - Servidor ASGI de alto rendimiento.
 
-* **CI (Integración Continua):** Implementé **GitHub Actions** para validar automáticamente la sintaxis de cada script en cada `push`.
-* **Gestión de Versiones:** Uso profesional de **Ramas (Branching)** y **Pull Requests** para integrar nuevas funcionalidades de forma segura.
-* **Consistencia:** Uso de rutas dinámicas (`os.path`) para asegurar que el Backend sea robusto y portable.
+Requests - Consumo de datos de servidores externos.
 
----
-**Próximo objetivo: Integración Final de la Semana 1 y Docker ⚡**
+DevOps & Calidad
+Docker - Virtualización de aplicaciones.
+
+Pytest - Framework de pruebas unitarias.
+
+Git/GitHub - Control de versiones y Git Flow.
+
+GitHub Actions - Integración Continua (CI).
+
+🔧 Instalación y Configuración
+Requisitos Previos
+Python instalado y entorno virtual (.venv) activado.
