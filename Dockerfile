@@ -8,9 +8,10 @@ ENV PYTHONUNBUFFERED 1
 # 3. Directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# 4. Copiamos todo tu repositorio al contenedor
+# 4. Copiamos todo el repositorio al contenedor
 COPY . .
 
-# 5. Comando para ejecutar tu aplicación (Ajusta la ruta si es necesario)
-# Si tu archivo principal está en la carpeta del día 7, la ruta sería:
+# 5. Comando para ejecutar la aplicacion
+# Si el archivo está en la carpeta del día 7, la ruta sería:
 CMD ["python", "practicas_diarias/day7_final_challenge/interface.py"]
+# besto se hace cada vez que uhno quiera iniciar el contenedor
