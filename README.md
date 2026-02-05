@@ -48,6 +48,31 @@ Git/GitHub - Control de versiones y Git Flow.
 
 GitHub Actions - Integración Continua (CI).
 
-🔧 Instalación y Configuración
-Requisitos Previos
-Python instalado y entorno virtual (.venv) activado.
+## 🔧 Instalación y Configuración
+
+### Requisitos Previos
+- Python 3.10 o superior.
+- Git instalado en el sistema.
+- Entorno virtual (opcional pero recomendado).
+
+### Instrucciones de Instalación
+
+#### Configuración del Proyecto
+```bash
+# Clonar el repositorio
+git clone [https://github.com/AlexisJ31/Python-Learning-Journal.git](https://github.com/AlexisJ31/Python-Learning-Journal.git)
+
+# Navegar al directorio del proyecto
+cd Python-Learning-Journal
+
+# Crear y activar entorno virtual (Windows)
+python -m venv .venv
+.\.venv\Scripts\activate
+
+# Instalar dependencias necesarias
+pip install -r requirements.txt
+```
+# Iniciar el servidor con el reloader automático
+uvicorn main:app --reload
+# Ejecutar las pruebas unitarias con Pytest
+pytest tests/test_practica.py
